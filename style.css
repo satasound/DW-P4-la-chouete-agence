@@ -379,6 +379,10 @@ address {
   font-weight: bold;
 }
 
+:focus {
+  outline: 3px solid red;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -656,21 +660,6 @@ a[data-lightbox]:hover img {
   background: none;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-  font-family: "helvetica";
-  font-weight: 400;
-  color: #575757 !important;
-} */
-
 footer ul li a {
   font-family: "helvetica";
   font-weight: 400;
@@ -777,10 +766,6 @@ h4 {
 }
 
 /****************************  Modif  *************************/
-/* .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
-  padding: 40px 40px 40px 40px;
-} */
 
 .black-background {
   background-color: rgba(20, 30, 20, 0.9);
@@ -820,16 +805,6 @@ h4 {
   color: #f3976c !important;
 }
 /*********************************  Modif  *******************/
-/* .btn-atomic-tangerine {
-  background: #f3976c;
-  color: #ffffff !important;
-}
-
-.btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
-} */
-
 .btn-atomic-tangerine {
   background: #92370c;
   color: #ffffff !important;
@@ -935,10 +910,6 @@ blockquote h2 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    /* padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right); */
-  }
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -947,8 +918,6 @@ blockquote h2 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    /* padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right); */
   }
 }
 
@@ -1092,10 +1061,6 @@ blockquote h2 {
   .tight-width-whitespace {
     background-color: transparent;
   }
-
-  /* .mg-md {
-    color: #fff !important;
-  } */
 
   h1,
   h2.mg-md,

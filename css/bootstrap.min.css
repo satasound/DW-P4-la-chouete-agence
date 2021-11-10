@@ -2878,7 +2878,6 @@ textarea.input-lg {
   height: 34px;
   line-height: 34px;
   text-align: center;
-  pointer-events: none;
 }
 .form-group-lg .form-control + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
@@ -3135,10 +3134,6 @@ fieldset[disabled] .btn {
   -webkit-box-shadow: none;
   box-shadow: none;
   opacity: 0.65;
-}
-a.btn.disabled,
-fieldset[disabled] a.btn {
-  pointer-events: none;
 }
 .btn-default {
   color: #333;
@@ -3944,7 +3939,6 @@ tbody.collapse.in {
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
-  pointer-events: none;
 }
 .input-group {
   position: relative;
